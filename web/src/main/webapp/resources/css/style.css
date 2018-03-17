@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+    background-image: url("/resources/img/site/backgraund.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Raleway";
+    font-weight: 300;
+    color:  #FFFFFF;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+
+a{
+    color: #f85c37;
+}
+
+a:hover, a:focus{
+    color: #7b7b7b;
+    text-decoration: none;
+}
+
+.benefits h3{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.decorated-title-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.decorated-title {
+    display: inline-block;
+    margin-bottom: -2px;
+    margin-right: 0.5rem;
+    border-bottom: 2px solid #fcd041;
+    line-height: 2;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.fa {
+    margin-right: 3px;
+    color: #FCD13F;
+}
+.fa:hover{
+    color: #ac2925;
+}
+/*------Navigation------*/
+.main-nav-li a {
+    margin: 10px 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: -webkit-match-parent;
+}
+.main-nav-li a:hover{
+    color: #7b7b7b;
+    text-decoration: none;
+}
+
+.main-menu-wrapper hr {
+    color: #FFFFFF;
+    background-color:#FFFFFF;
+    height: 1px;
+}
+.dropdown-item{
+    background: #2d2d2d;
+    color: #FCD13F;
+}
+.navbar{
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-inverse{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.w{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.w img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo{
+    margin-top: 70px;
+}
+
+.w h3{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+/*------CATEGORIES------*/
+
+.menu-cat-p{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu-cat-p p:hover{
+    text-decoration: none;
+}
+
+.aboutUs p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/*------FOOTER------*/
+#footer{
+    padding: 28px;
+}
+
+.social-menu-link{
+    font-size: 15px;
+    padding: 20px;
+    width: 80%;
+}
+
+.buttom{
+    margin-top: 10px;
+    color: #000000;
+}
+.feed-back-text{
+    color: #000000;
+}
+
+/*------AUTHORIZATION------*/
+#welcome{
+    color: #FCD13F;
+}
+
+.registration{
+    color: #000000;
+}
+.text-color{
+    color: #000000;
+}
+
+/*------ERROR------*/
+.error{
+    color: #F32112;
+}
+
+/*------GOODS------*/
+
+.goods-category{
+    height: 100vh;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+  .content{
+      margin-top: 50px;
+  }
+
+  .product {
+      background: #fff none repeat scroll 0 0;
+      border: 1px solid #c0c0c0;
+      height: 395px;
+      overflow: hidden;
+      padding: 25px 15px;
+      position: relative;
+      text-align: center;
+      transition: all 0.5s ease 0s;
+      margin-bottom: 20px;
+  }
+
+  .product:hover {
+      box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  }
+
+  .product-img {
+      height: 200px;
+  }
+
+  .product-title a {
+      color: #000;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+  .product-desc {
+      max-height: 30px;
+      overflow: hidden;
+      color: #000000;
+  }
+
+  .product-price {
+      bottom: 15px;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      color: #d51e08;
+      font-size: 18px;
+      font-weight: 500;
+  }
+
+/*------ORDER------*/
+
+.vline{
+    border-left: 1px solid white;
+}
